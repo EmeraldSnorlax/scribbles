@@ -1,0 +1,23 @@
+:root {
+	--chalk: #fffcf8;
+	--faded-chalk: #c9c9c5;
+	--ink: black;
+	--faded-ink: #403f3e;
+	--chalkboard: #29312b;
+	--paper: var(--chalk); /* may change in future? who knows */
+
+  --font: 'Cutive', serif;
+  --display-font: 'Mansalva', sans-serif;
+}
+
+body {
+	@media not (prefers-color-scheme: dark) {
+		color: var(--faded-ink);
+		background-color: var(--paper);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		color: var(--faded-chalk);
+		background-color: var(--chalkboard);
+	}
+}
