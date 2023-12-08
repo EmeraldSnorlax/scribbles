@@ -21,7 +21,7 @@ const config = {
 			display: ['Mansalva', 'sans-serif'],
 		}
 	},
-	darkMode: 'class',
+	darkMode: 'media',
 	plugins: []
 };
 

@@ -8,5 +8,7 @@
 	<nav class="py-4 text-ink-faded dark:text-chalk-faded">
 		<a class="font-display text-2xl md:text-3xl" href="/articles">rain's scribbles</a>
 	</nav>
-	<slot />
+	<main class="font-serif">
+		<slot />
+	</main>
 </div>
