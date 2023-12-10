@@ -1,2 +1,3 @@
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QGitHub\nDiscord: @rain.lgbt\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QGitHub: EmeraldSnorlax\nDiscord: @rain.lgbt\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q  rain.lgbt // home\\E$"}

@@ -4,6 +4,11 @@
 	import '@fontsource/cutive';
 </script>
 
+<svelte:head>
+	<meta content="#fffcf8" data-react-helmet="true" name="theme-color" />
+	<meta content="rain's scribbles" property="og:site_name" />
+</svelte:head>
+
 <div class="2xl:max-w-7xl 2xl:mx-auto mx-8 md:mx-16">
 	<nav class="py-4 text-ink-faded dark:text-chalk-faded">
 		<a class="font-display text-2xl md:text-3xl" href="/">rain's scribbles</a>
@@ -27,5 +32,11 @@
 			class="fill-paper dark:fill-chalk-faded"
 		/>
 	</svg>
-	<a href="https://github.com/EmeraldSnorlax/scribbles" rel="noopener" class="text-ink-faded dark:text-chalk-faded mt-2 font-serif lowercase text-xs underline decoration-wavy"> Code BSD 3-Clause, prose CC BY-NC 4. </a>
+	<a
+		href="https://github.com/EmeraldSnorlax/scribbles"
+		rel="noopener"
+		class="text-ink-faded dark:text-chalk-faded mt-2 font-serif lowercase text-xs underline decoration-wavy"
+	>
+		Code BSD 3-Clause, prose CC BY-NC 4.
+	</a>
 </footer>
