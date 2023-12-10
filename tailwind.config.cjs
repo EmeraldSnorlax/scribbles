@@ -12,7 +12,10 @@ const config = {
 				DEFAULT: '#1f1f1f',
 				faded: '#403f3e'
 			},
-			chalkboard: "#29312b",
+			chalkboard: {
+				DEFAULT: "#29312b",
+				darker: '#1d251f'
+			},
 			paper: "#fffcf8",
 			},
 

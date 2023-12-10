@@ -1,0 +1,1 @@
+<li class="text-ink-faded dark:text-chalk-faded my-2"><slot/></li>

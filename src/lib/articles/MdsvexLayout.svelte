@@ -4,7 +4,8 @@
 	import h2 from './custom/h2.svelte';
 	import p from './custom/p.svelte';
 	import a from './custom/a.svelte';
-	export { h1, h2, p, a };
+	import li from './custom/li.svelte';
+	export { h1, h2, p, a, li };
 
 	// generate toc and ids for headings
 	import { toc, createTocStore, toclink } from '@svelte-put/toc';
