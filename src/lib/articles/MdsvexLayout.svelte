@@ -24,7 +24,7 @@
 							<li class="my-2 relative group">
 								{#if $tocStore.activeItem?.id === tocItem.id}
 									<svg
-										class="w-4 h-4 absolute -translate-x-2 text-ink-faded dark:text-chalk-faded group-hover:text-ink dark:group-hover:text-chalk transition"
+										class="w-4 h-4 absolute -translate-x-2 -translate-y-[0.15rem] text-ink-faded dark:text-chalk-faded group-hover:text-ink dark:group-hover:text-chalk transition"
 										viewBox="0 0 200 200"
 										xmlns="http://www.w3.org/2000/svg"
 										><path
