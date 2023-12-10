@@ -27,5 +27,5 @@
 			class="fill-paper dark:fill-chalk-faded"
 		/>
 	</svg>
-	<a href="https://github.com/EmeraldSnorlax/website" rel="noopener" class="text-ink-faded dark:text-chalk-faded mt-2 font-serif lowercase text-xs underline decoration-wavy"> Code BSD 3-Clause, prose CC BY-NC 4. </a>
+	<a href="https://github.com/EmeraldSnorlax/scribbles" rel="noopener" class="text-ink-faded dark:text-chalk-faded mt-2 font-serif lowercase text-xs underline decoration-wavy"> Code BSD 3-Clause, prose CC BY-NC 4. </a>
 </footer>
