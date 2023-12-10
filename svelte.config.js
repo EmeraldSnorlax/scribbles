@@ -1,6 +1,7 @@
 import { mdsvex } from 'mdsvex';
 import mdsvexConfig from './mdsvex.config.js';
 import adapter from '@sveltejs/adapter-auto';
+import autoSlug from '@svelte-put/preprocess-auto-slug'
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -9,7 +10,11 @@ const config = {
 
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [vitePreprocess({}), mdsvex(mdsvexConfig)],
+	preprocess: [
+		autoSlug(),
+		vitePreprocess({}),
+		mdsvex(mdsvexConfig),
+	],
 
 	kit: {
 		adapter: adapter()
