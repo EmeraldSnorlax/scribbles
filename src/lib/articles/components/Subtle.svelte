@@ -1,0 +1,1 @@
+<span class="text-ink-faded dark:text-chalk-faded text-xs block"><slot/></span>

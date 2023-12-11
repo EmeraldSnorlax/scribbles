@@ -13,15 +13,18 @@ const config = {
 				faded: '#403f3e'
 			},
 			chalkboard: {
-				DEFAULT: "#29312b",
+				DEFAULT: '#29312b',
 				darker: '#1d251f'
 			},
-			paper: "#fffcf8",
-			},
+			paper: {
+				DEFAULT: '#fffcf8',
+				darker: '#d8d5d2'
+			}
+		},
 
 		fontFamily: {
-			'serif': ['Cutive', 'serif'],
-			display: ['Mansalva', 'sans-serif'],
+			serif: ['Cutive', 'serif'],
+			display: ['Mansalva', 'sans-serif']
 		}
 	},
 	darkMode: 'media',
