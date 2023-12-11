@@ -26,6 +26,20 @@
 	}
 </script>
 
+<div class="mb-4">
+	<noscript>
+		<Subtle>
+			Some demonstrations will fallback to a scriptless version because you have disabled
+			JavaScript. Enable it to see the originals.
+		</Subtle>
+	</noscript>
+	{#if reducedMotion}
+		<Subtle
+			>Some demonstrations will fallback to a static version because you prefer reduced motion.</Subtle
+		>
+	{/if}
+</div>
+
 <div
 	class="h-20 outline rounded-sm"
 	role="img"
@@ -38,17 +52,17 @@
 			>
 		{/each}
 	</noscript>
-  <div class="{browser ? 'opacity-100' : 'opacity-0'} transition-all">
-	{#if reducedMotion}
-		{#each fonts as style}
-			<span class="block bg-chalk-faded px-2 text-sm w-fit" style="font-family: {style};"
-				><slot /></span
-			>
-		{/each}
-	{:else}
-		<div>
-			<FontMeasurer bind:font><slot /></FontMeasurer>
-		</div>
-	{/if}
-  </div>
+	<div class="{browser ? 'opacity-100' : 'opacity-0'} transition-all">
+		{#if reducedMotion}
+			{#each fonts as style}
+				<span class="block bg-chalk-faded px-2 text-sm w-fit" style="font-family: {style};"
+					><slot /></span
+				>
+			{/each}
+		{:else}
+			<div>
+				<FontMeasurer bind:font><slot /></FontMeasurer>
+			</div>
+		{/if}
+	</div>
 </div>
