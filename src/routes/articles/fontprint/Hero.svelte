@@ -35,7 +35,7 @@
 </div>
 
 <div
-	class="h-20 outline rounded-sm"
+	class="h-20 rounded-sm"
 	role="img"
 	aria-label="Comparison of how the same content can have different pixel widths when rendered depending on the current font."
 >
