@@ -6,12 +6,6 @@
 	let fonts = ['sans-serif', 'monospace', 'cursive', 'serif'];
 	let font = fonts[i];
 
-	function sleep(ms: number) {
-		return new Promise<void>((resolve) => {
-			setTimeout(resolve, ms);
-		});
-	}
-
 	let reducedMotion = false;
 	if (browser) {
 		reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
