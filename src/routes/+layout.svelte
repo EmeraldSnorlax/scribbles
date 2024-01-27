@@ -32,6 +32,6 @@
 		rel="noopener"
 		class="text-ink-faded dark:text-chalk-faded mt-2 font-serif lowercase text-xs underline decoration-wavy"
 	>
-		Code BSD 3-Clause, prose CC BY-NC 4.
+		source code
 	</a>
 </footer>
